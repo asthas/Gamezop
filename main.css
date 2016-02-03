@@ -7,8 +7,11 @@ ul{
 li{
 	display: inline-block;
 }
-li button{
 
+.navbar-btn{
+	padding: 2px;
+	height: 30px;
+	width: 140px;
 }
 .col-xs-8{
 	text-align: center;
