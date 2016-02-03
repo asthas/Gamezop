@@ -1,0 +1,44 @@
+body{
+	padding-top: 70px;
+}
+ul{
+	list-style-type: none;
+}
+li{
+	display: inline-block;
+}
+.col-xs-8{
+	text-align: center;
+}
+.carousel-inner > .item > h3,
+  .carousel-inner > .item > a > h3 {
+  	  height: 250px; 
+      width: 100%;
+      margin: auto;
+      background-color: black;
+  }
+
+h3{
+	padding: 80px;
+	margin: 50px;
+	text-align: center;
+ 	color: #fff;
+ 	font-family: 'Roboto';
+ }
+
+ p{
+	float: right;
+	margin-right: 60px;
+	margin-top: 20px;
+ }
+
+ @font-face {
+    font-family: 'Roboto';
+    src: url("fonts/Roboto-LightItalic_2.ttf") /* TTF file for CSS3 browsers */
+}
+
+.row1{
+	height:300px;
+	width: 100%;
+	display: block;
+}
