@@ -13,7 +13,7 @@ li{
 	height: 30px;
 	width: 140px;
 }
-.col-xs-8{
+.col-sm-6{
 	text-align: center;
 }
 .carousel-inner > .item > h3,
@@ -47,7 +47,7 @@ p{
     src: url("fonts/Roboto-BoldItalic_2.ttf") /* TTF file for CSS3 browsers */
 }
 .row1{
-	height:350px;
+	height:30%;
 	width: 100%;
 	display: block;
 }
@@ -106,3 +106,12 @@ button{
 	width: 120px;
 	margin: 20px;
 }
+.chat1{
+	position: relative;
+	width: 100%;
+	background: url(images/blue-blurb-without-text.png);
+	color: #fff;
+	height: 100px;
+}
+
+
