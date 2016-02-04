@@ -82,7 +82,7 @@ img.logo.sticky{
 	text-align: center;
 }
 #chat{
-	box-shadow: 2px 2px 2px #b2b2b2;
+	box-shadow:0 6px 6px -4px #333;
 }
 #myCarousel{
 	background: url(images/carousel-placeholder.png);
@@ -118,8 +118,10 @@ p{
     font-family: 'Roboto';
     src: url("fonts/Roboto-BoldItalic_2.ttf") /* TTF file for CSS3 browsers */
 }
+.cartoon{
+	box-shadow: 0 -5px 5px -2px #333; 
+}
 .row1{
-	box-shadow: 0px 0px 10px #b2b2b2; 
 	height:30%;
 	width: 100%;
 	display: block;
