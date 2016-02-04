@@ -1,10 +1,8 @@
 $(window).scroll(function() {
 	if($(this).scrollTop() > 1){
-		$('ul').addClass("sticky");
-		$('img.logo').addClass("sticky");
+		$('ul, img.logo, .top').addClass("sticky");
 	}
 	else {
-		$('ul').removeClass("sticky");
-		$('img.logo').removeClass("sticky");
+		$('ul, img.logo, .top').removeClass("sticky");
 	}
 });

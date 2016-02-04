@@ -1,5 +1,6 @@
 body{
 	padding-top: 0px;
+	overflow-x: hidden;
 }
 header{
 	margin: 0px;
@@ -10,7 +11,7 @@ ul{
 	width: 100%;
 	list-style-type: none;
 	text-align: center;
-	margin-bottom: 40px;
+	margin-bottom: 80px;
 	position: relative;
 }
 ul.sticky{
@@ -21,6 +22,8 @@ ul.sticky{
 	position: fixed;
 	z-index: 2;
 	background-color: #eee;
+	box-shadow: 2px 2px 2px #b2b2b2;
+	height: 75px;
 }
 
 ul.nav li{
@@ -31,15 +34,15 @@ li a {
 	display: inline-block;
 }
 img.logo{
-	margin-top: 50px;
-	margin-left: 20%;
+	margin-top: 80px;
+	margin-left: 23%;
 	height: 80px; 
 	width:80px;
 }
 
 img.logo.sticky{
-	margin-top: 5px;
-	margin-left: 20%;
+	margin-top: 12px;
+	margin-left: 23%;
 	width: 50px;
 	height: 50px;
 	z-index: 4;
@@ -48,7 +51,7 @@ img.logo.sticky{
 	margin: 10px;
 	margin-top: 30px;
 	height: 32px;
-	width: 136px;
+	width: 150px;
 	border-radius: 4px;
 	background-color: #ebebeb;
 	border-color: #bbb;
@@ -56,6 +59,22 @@ img.logo.sticky{
 	font-weight: 500;
 	font-size: 16px;
 	color: #444;
+}
+.top.sticky{
+	margin: 10px;
+	margin-top: 20px;
+	height: 32px;
+	width: 150px;
+	border-radius: 4px;
+	background-color: #ebebeb;
+	border-color: #bbb;
+	border: none;
+	font-weight: 500;
+	font-size: 16px;
+	color: #444;
+	background-color: #c2c2c2;
+	
+	
 }
 .pull-right{
 	margin-right: 30px;
@@ -80,7 +99,7 @@ img.logo.sticky{
       display: none;
 }
 .carousel-indicators{
-	z-index: 1;
+	z-index: -1;
 }
 .item h3{
 	padding: 80px;
