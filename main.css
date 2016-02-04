@@ -110,9 +110,13 @@ button{
 .chat1{
 	position: relative;
 	width: 100%;
+	border-radius: 5px;
 	background: url(images/blue-blurb-without-text.png);
 	color: #fff;
 	height: 100px;
+}
+.chat1 h4 {
+	padding: 24px;
 }
 
 
