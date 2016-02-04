@@ -16,6 +16,9 @@ li{
 .col-sm-6{
 	text-align: center;
 }
+#myCarousel{
+	background: url(images/carousel-placeholder.png);
+}
 .carousel-inner > .item > h3,
   .carousel-inner > .item > a > h3 {
   	  height: 250px; 
@@ -24,8 +27,7 @@ li{
       background: linear-gradient(
 	      rgba(0, 0, 0, 0.7), 
 	      rgba(0, 0, 0, 0.7)
-    ),
-    url(images/carousel-placeholder.png);
+    );
 }
 .right.carousel-control, .left.carousel-control {
       display: none;
