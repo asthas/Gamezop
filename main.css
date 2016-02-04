@@ -1,17 +1,36 @@
 body{
-	padding-top: 70px;
+	padding-top: 20px;
+}
+header{
+	margin: 0px;
+	padding: 0px;
 }
 ul{
+	width: 100%;
 	list-style-type: none;
-}
-li{
-	display: inline-block;
+	text-align: center;
 }
 
-.navbar-btn{
-	padding: 2px;
-	height: 30px;
-	width: 140px;
+ul.nav li{
+	display: inline-block;
+}
+li a {
+	display: inline-block;
+}
+img.logo{
+	margin-left: 20%;
+}
+.top{
+	margin: 12px;
+	height: 28px;
+	width: 132px;
+	border-radius: 4px;
+	background-color: #ebebeb;
+	border-color: #bbb;
+	border: none;
+}
+.pull-right{
+	margin-right: 20px;
 }
 .col-sm-6{
 	text-align: center;
