@@ -176,7 +176,7 @@ hr{
 }
 footer{
 	width: 100%;
-	height: 200px;
+	height: 80%;
 	margin-top: 20px;
 }
 footer h4 {
@@ -190,10 +190,14 @@ footer h4 {
 	line-height: 150%;
 	margin-bottom: 60px;
 }
-.sponser1{
+.sponsers{
+	width: 80%;
 	margin: auto;
-	height: 100px;
-	width: 200px;
+	margin-bottom: 100px;
+}
+.sponser1{
+	height: 150px;
+	width: 300px;
 	text-align: center;
 	background-image: url(images/1-bw.png);
 }
@@ -202,9 +206,8 @@ footer h4 {
 	transition-property: background-image;
 }
 .sponser2{
-	margin: auto;
-	height: 100px;
-	width: 200px;
+	height: 150px;
+	width: 300px;
 	background-image: url(images/2-bw.png);
 }
 .sponser2:hover{
@@ -212,9 +215,8 @@ footer h4 {
 	transition-property: background-image;
 }
 .sponser3{
-	margin: auto;
-	height: 100px;
-	width: 200px;
+	height: 150px;
+	width: 300px;
 	background-image: url(images/3-bw.png);
 }
 .sponser3:hover{
@@ -222,9 +224,8 @@ footer h4 {
 	transition-property: background-image;
 }
 .sponser4{
-	margin: auto;
-	height: 100px;
-	width: 200px;
+	height: 150px;
+	width: 300px;
 	background-image: url(images/4-bw.png);
 }
 .sponser4:hover{
@@ -233,6 +234,20 @@ footer h4 {
 }
 .btn-grp {
 	text-align: center;
+	margin-bottom: 30px;
+}
+.bottom{
+	margin: 10px;
+	margin-top: 30px;
+	height: 32px;
+	width: 150px;
+	border-radius: 4px;
+	background-color: #ebebeb;
+	border-color: #bbb;
+	border: none;
+	font-weight: 500;
+	font-size: 16px;
+	color: #444;
 }
 a{
 	color: #666 ;
