@@ -85,6 +85,7 @@ img.logo.sticky{
 #myCarousel{
 	background:url(images/carousel-placeholder.png);
 	background-attachment: fixed;
+	z-index: -6;
 }
 .carousel-inner > .item > h3,
   .carousel-inner > .item > a > h3 {
@@ -97,21 +98,21 @@ img.logo.sticky{
 	      rgba(0, 0, 0, 0.7)
     );
       z-index: -1;
+      display: table;
 }
 .right.carousel-control, .left.carousel-control {
       display: none;
 }
 
-
 .item h3{
-	padding: 80px;
-	margin: 50px;
-	text-align: center;
  	color: #fff;
  	font-family: "Roboto";
  	font-weight: 700;
  	font-style: italic;
  	line-height: 150%;
+ 	display: table-cell;
+ 	vertical-align: middle;
+	text-align: center;
  }
 .comment{
  	display: inline;
