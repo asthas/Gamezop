@@ -72,8 +72,6 @@ img.logo.sticky{
 	font-size: 16px;
 	color: #444;
 	background-color: #c2c2c2;
-	
-	
 }
 .pull-right{
 	margin-right: 30px;
@@ -85,11 +83,12 @@ img.logo.sticky{
 	box-shadow:0 6px 6px -4px #333;
 }
 #myCarousel{
-	background: url(images/carousel-placeholder.png);
-	z-index: -2;
+	background:url(images/carousel-placeholder.png);
+	background-attachment: fixed;
 }
 .carousel-inner > .item > h3,
   .carousel-inner > .item > a > h3 {
+
   	  height: 280px; 
       width: 100%;
       margin: auto;
@@ -102,21 +101,28 @@ img.logo.sticky{
 .right.carousel-control, .left.carousel-control {
       display: none;
 }
+
+
 .item h3{
 	padding: 80px;
 	margin: 50px;
 	text-align: center;
  	color: #fff;
- 	font-family: 'Roboto';
+ 	font-family: "Roboto";
+ 	font-weight: 700;
+ 	font-style: italic;
+ 	line-height: 150%;
+ }
+.comment{
+ 	display: inline;
+ 	font-family: "Roboto";
+ 	font-weight: 500;
+ 	font-style: italic;
  }
 p{
 	float: right;
 	margin-right: 60px;
 	margin-top: 20px;
-}
-@font-face {
-    font-family: 'Roboto';
-    src: url("fonts/Roboto-BoldItalic_2.ttf") /* TTF file for CSS3 browsers */
 }
 .cartoon{
 	box-shadow: 0 -5px 5px -2px #333; 
