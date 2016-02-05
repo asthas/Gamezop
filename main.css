@@ -83,9 +83,12 @@ img.logo.sticky{
 	box-shadow:0 6px 6px -4px #333;
 }
 #myCarousel{
-	background:url(images/carousel-placeholder.png);
+	background:linear-gradient(
+	      rgba(0, 0, 0, 0.7), 
+	      rgba(0, 0, 0, 0.7)
+    ),
+	url(images/carousel-placeholder.png);
 	background-attachment: fixed;
-	z-index: -6;
 }
 .carousel-inner > .item > h3,
   .carousel-inner > .item > a > h3 {
@@ -93,10 +96,7 @@ img.logo.sticky{
   	  height: 280px; 
       width: 100%;
       margin: auto;
-      background: linear-gradient(
-	      rgba(0, 0, 0, 0.7), 
-	      rgba(0, 0, 0, 0.7)
-    );
+      background: transparent;
       z-index: -1;
       display: table;
 }
