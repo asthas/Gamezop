@@ -260,10 +260,13 @@ button{
 	margin: 20px;
 }
 .screenshot{
-	margin-top: -40px;
-	margin-left: 33%;
+	width: 100%;
 	height:660px;
 	position: absolute;
+	text-align: center;
+}
+.screenshot img{
+	margin-top:-40px;
 }
 #chat{
 	max-height: 660px;
