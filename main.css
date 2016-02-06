@@ -280,6 +280,7 @@ button{
 }
 .chat-left{
 	margin-left: 20px;
+	margin-right: 40px;
 }
 .bubbleb{
   position:relative;
@@ -325,9 +326,10 @@ button{
   padding:18px;
   padding-left: 20px;
   color:#fff;
+  margin-right: -10px;
   background-color: #ebebeb; 
   border-radius:10px;
-  width: 80%;
+  width: 100%;
 }
 .bubbleg:after {
   content:"";
@@ -348,18 +350,24 @@ button{
   color:#fff;
   background-color: #ebebeb; 
   border-radius:10px;
-  margin-right:0px;
-  width: 90%;
+  width: 100%;
 }
 .message-short{
 	width: 90%;
 	padding:20px;
-	margin-top: 80px;
+	margin-top: 100px;
 	margin-bottom: 80px;
 }
 .message-long{
 	margin-top: 180px;
 }
+.message-gap{
+	width: 90%;
+	padding:20px;
+	margin-top: 35px;
+	margin-bottom: 35px;
+}
+
 
 
 
