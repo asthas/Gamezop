@@ -279,18 +279,20 @@ button{
 	height: 660px;
 }
 .chat-left{
-	margin-left: 2px;
+	margin-left: -20px;
 	margin-right: 40px;
 }
 .bubbleb{
   position:relative;
   padding-left:19px;
- 	padding-right: 18px;
- 	padding-top: 8px;
- 	padding-bottom: 8px;
+  padding-right: 18px;
+  padding-top: 8px;
+  padding-bottom: 8px;
   color:#fff;
   background-color: #2979FF; 
+
   border-radius:20px;
+  border-top-left-radius: 10px;
   margin-left:40px;
   width: 90%;
 }
@@ -298,9 +300,9 @@ button{
 .bubbleb:before {
   content:"";
   position:absolute;
-  top:10px; 
+  top:0px; 
   left:-30px; 
-  border-width:0px 50px 20px 0px; 
+  border-width:0px 45px 20px 0px; 
   border-style:solid;
   border-color:#2979FF transparent;
   display:block;
@@ -311,13 +313,11 @@ button{
   margin-top: 5px;
   position:relative;
   padding-left:19px;
- 	padding-right: 18px;
- 	padding-top: 8px;
- 	padding-bottom: 8px;
+  padding-right: 18px;
+  padding-top: 8px;
+  padding-bottom: 8px;
   color:#fff;
   background-color: #2979FF; 
-  -webkit-border-radius:12px;
-  -moz-border-radius:12px;
   border-radius:20px;
   margin-left:40px;
   width: 90%;
@@ -328,9 +328,9 @@ button{
 	font-weight: 400;
 }
 .chat-right{
-	text-align: right;
+	text-align: left;
 	margin-left: 10%;
-	margin-right: -30px;
+	margin-right: -20px;
 }
 .bubbleg{
   position:relative;
@@ -340,19 +340,21 @@ button{
   margin-right: -10px;
   background-color: #ebebeb; 
   border-radius:20px;
+  border-top-right-radius: 10px;
   width: 100%;
 }
 .bubbleg:before {
   content:"";
   position:absolute;
-  top:10px; 
-  right:-30px; 
-  border-width:0px 0px 20px 50px; 
+  top:0px; 
+  right:-30px;
+  border-width:0px 0px 20px 45px; 
   border-style:solid;
   border-color:#ebebeb transparent;
+
   display:block;
   width:0;
-  transform:rotate(180deg);
+  transform:rotate(178deg);
 }
 .plaing{
   position:relative;
@@ -364,12 +366,16 @@ button{
   width: 100%;
 }
 .message-short{
-	width: 90%;
+	width: auto;
 	padding:20px;
 	margin-top: 100px;
 	margin-bottom: 80px;
+	border-radius: 10px;
 }
 .message-long{
+	width: auto;
+	background: #fff;
+	border-radius: 30px;
 	margin-top: 180px;
 }
 .message-gap{
@@ -385,22 +391,20 @@ button{
 	width: 83%;
 }
 .short1{
-	text-align: left;
-	width: 90%;
-	margin-left: 10%;
+	width: 80%;
+	margin-left: 20%;
 }
 .short2{
-	margin-left: 40%;
-	width: 55%;
+	margin-left: 50%;
+	width: 50%;
 }
 .short3{
-	margin-left: 20%;
-	width: 68%;
+	margin-left: 35%;
+	width: 65%;
 }
 .short4{
-	text-align: left;
-	width: 40%;
-	margin-left: 60%;
+	width: 30%;
+	margin-left: 70%;
 }
 .longl{
 	width: 100%;
