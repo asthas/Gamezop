@@ -122,14 +122,16 @@ footer h4 {
 }
 .sponsers{
     width: 80%;
-    margin: auto;
     margin-bottom: 100px;
+    margin: auto;
 }
 .sponser1{
     height: 150px;
-    width: 300px;
+    width: 100%;
     text-align: center;
+     margin-left: 30%;
     background-image: url(images/1-bw.png);
+    background-repeat: no-repeat;
 }
 .sponser1:hover{
     background-image: url(images/1-rgb.png);
@@ -137,8 +139,11 @@ footer h4 {
 }
 .sponser2{
     height: 150px;
-    width: 300px;
+     width: 100%;
+    text-align: center;
+     margin-left: 30%;
     background-image: url(images/2-bw.png);
+   	background-repeat: no-repeat;
 }
 .sponser2:hover{
     background-image: url(images/2-rgb.png);
@@ -146,8 +151,11 @@ footer h4 {
 }
 .sponser3{
     height: 150px;
-    width: 300px;
+    width: 100%;
+    text-align: center;
+     margin-left: 30%;
     background-image: url(images/6-bw.png);
+    background-repeat: no-repeat;
 }
 .sponser3:hover{
     background-image: url(images/6-rgb.png);
@@ -155,8 +163,11 @@ footer h4 {
 }
 .sponser4{
     height: 150px;
-    width: 300px;
+     width: 100%;
+    text-align: center;
+    margin-left: 30%;
     background-image: url(images/5-bw.png);
+    background-repeat: no-repeat;
 }
 .sponser4:hover{
     background-image: url(images/5-rgb.png);
