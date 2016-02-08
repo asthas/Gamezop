@@ -1,188 +1,185 @@
-@media screen 
-  and (device-width: 360px) 
-  and (device-height: 640px) {
-	body{
-		padding-top: 70px;
-		overflow-x: hidden;
-	}
-	ul{
-		list-style-type: none;
-	}
-	li{
-		display: inline-block;
-	}
-	.top{
-	    margin: 10px;
-	    margin-top: 30px;
-	    height: 32px;
-	    width: 150px;
-	    border-radius: 4px;
-	    background-color: #ebebeb;
-	    border-color: #bbb;
-	    border: none;
-	    font-weight: 500;
-	    font-size: 16px;
-	    color: #444;
-	}
-	.top.sticky{
-	    margin: 10px;
-	    margin-top: 20px;
-	    height: 32px;
-	    width: 150px;
-	    border-radius: 4px;
-	    background-color: #ebebeb;
-	    border-color: #bbb;
-	    border: none;
-	    font-weight: 500;
-	    font-size: 16px;
-	    color: #444;
-	    background-color: #c2c2c2;
-	}
-
-	.navbar-btn{
-		padding: 2px;
-		height: 30px;
-		width: 140px;
-	}
-	.col-sm-6{
-		text-align: center;
-	}
-	.carousel-inner > .item > h3,
-	  .carousel-inner > .item > a > h3 {
-	  	  height: 250px; 
-	      width: 100%;
-	      margin: auto;
-	      background: linear-gradient(
-		      rgba(0, 0, 0, 0.7), 
-		      rgba(0, 0, 0, 0.7)
-	    ),
-	    url(images/carousel-placeholder3.png);
-	}
-	.right.carousel-control, .left.carousel-control {
-	      display: none;
-	}
-	.item h3{
-		padding: 80px;
-		margin: 50px;
-		text-align: center;
-	 	color: #fff;
-	 	font-family: 'Roboto';
-	 }
-	p{
-		float: right;
-		margin-right: 60px;
-		margin-top: 20px;
-	}
-	@font-face {
-	    font-family: 'Roboto';
-	    src: url("fonts/Roboto-BoldItalic_2.ttf") /* TTF file for CSS3 browsers */
-	}
-	.row1{
-		height:30%;
-		width: 100%;
-		display: block;
-	}
-	.col-md-6{
-		text-align: center;
-	}
-	.text{
-		margin: 10px;
-		padding: 80px;
-	}
-	.text h3 {
-		color: #3F51B5;
-	}
-	.text h4 {
-		color: #666;
-	}
-	footer{
-		width: 100%;
-		height: 80%;
-		margin-top: 20px;
-	}
-	footer h4 {
-		color: #666;
-	}
-	.footer-title h4{
-		color: rgba(0,0,0,0.4);
-		font-family: 'Roboto';
-		font-size: 22px;
-		font-weight: 400;
-		line-height: 150%;
-		margin-bottom: 60px;
-	}
-	.sponsers{
-		width: 80%;
-		margin: auto;
-		margin-bottom: 100px;
-	}
-	.sponser1{
-		height: 150px;
-		width: 300px;
-		text-align: center;
-		background-image: url(images/1-bw.png);
-	}
-	.sponser1:hover{
-		background-image: url(images/1-rgb.png);
-		transition-property: background-image;
-	}
-	.sponser2{
-		height: 150px;
-		width: 300px;
-		background-image: url(images/2-bw.png);
-	}
-	.sponser2:hover{
-		background-image: url(images/2-rgb.png);
-		transition-property: background-image;
-	}
-	.sponser3{
-		height: 150px;
-		width: 300px;
-		background-image: url(images/6-bw.png);
-	}
-	.sponser3:hover{
-		background-image: url(images/6-rgb.png);
-		transition-property: background-image;
-	}
-	.sponser4{
-		height: 150px;
-		width: 300px;
-		background-image: url(images/5-bw.png);
-	}
-	.sponser4:hover{
-		background-image: url(images/5-rgb.png);
-		transition-property: background-image;
-	}
-	.btn-grp {
-		text-align: center;
-		margin-bottom: 30px;
-	}
-	.bottom{
-		margin: 10px;
-		margin-top: 30px;
-		height: 32px;
-		width: 150px;
-		border-radius: 4px;
-		background-color: #ebebeb;
-		border-color: #bbb;
-		border: none;
-		font-weight: 500;
-		font-size: 16px;
-		color: #444;
-	}
-	a{
-		color: #666 ;
-	}
-	a:hover{
-		color: #666;
-		text-decoration: none;
-	}
-	button{
-		width: 120px;
-		margin: 20px;
-	}
-	.btn-grp {
-	    text-align: center;
-	    margin-bottom: 30px;
-	}
+body{
+	padding-top: 70px;
+	overflow-x: hidden;
 }
+ul{
+	list-style-type: none;
+}
+li{
+	display: inline-block;
+}
+.top{
+    margin: 10px;
+    margin-top: 30px;
+    height: 32px;
+    width: 150px;
+    border-radius: 4px;
+    background-color: #ebebeb;
+    border-color: #bbb;
+    border: none;
+    font-weight: 500;
+    font-size: 16px;
+    color: #444;
+}
+.top.sticky{
+    margin: 10px;
+    margin-top: 20px;
+    height: 32px;
+    width: 150px;
+    border-radius: 4px;
+    background-color: #ebebeb;
+    border-color: #bbb;
+    border: none;
+    font-weight: 500;
+    font-size: 16px;
+    color: #444;
+    background-color: #c2c2c2;
+}
+
+.navbar-btn{
+	padding: 2px;
+	height: 30px;
+	width: 140px;
+}
+.col-sm-6{
+	text-align: center;
+}
+.carousel-inner > .item > h3,
+  .carousel-inner > .item > a > h3 {
+  	  height: 250px; 
+      width: 100%;
+      margin: auto;
+      background: linear-gradient(
+	      rgba(0, 0, 0, 0.7), 
+	      rgba(0, 0, 0, 0.7)
+    ),
+    url(images/carousel-placeholder3.png);
+}
+.right.carousel-control, .left.carousel-control {
+      display: none;
+}
+.item h3{
+	padding: 80px;
+	margin: 50px;
+	text-align: center;
+ 	color: #fff;
+ 	font-family: 'Roboto';
+ }
+p{
+	float: right;
+	margin-right: 60px;
+	margin-top: 20px;
+}
+@font-face {
+    font-family: 'Roboto';
+    src: url("fonts/Roboto-BoldItalic_2.ttf") /* TTF file for CSS3 browsers */
+}
+.row1{
+	height:30%;
+	width: 100%;
+	display: block;
+}
+.col-md-6{
+	text-align: center;
+}
+.text{
+	margin: 10px;
+	padding: 80px;
+}
+.text h3 {
+	color: #3F51B5;
+}
+.text h4 {
+	color: #666;
+}
+footer{
+	width: 100%;
+	height: 80%;
+	margin-top: 20px;
+}
+footer h4 {
+	color: #666;
+}
+.footer-title h4{
+	color: rgba(0,0,0,0.4);
+	font-family: 'Roboto';
+	font-size: 22px;
+	font-weight: 400;
+	line-height: 150%;
+	margin-bottom: 60px;
+}
+.sponsers{
+	width: 80%;
+	margin: auto;
+	margin-bottom: 100px;
+}
+.sponser1{
+	height: 150px;
+	width: 300px;
+	text-align: center;
+	background-image: url(images/1-bw.png);
+}
+.sponser1:hover{
+	background-image: url(images/1-rgb.png);
+	transition-property: background-image;
+}
+.sponser2{
+	height: 150px;
+	width: 300px;
+	background-image: url(images/2-bw.png);
+}
+.sponser2:hover{
+	background-image: url(images/2-rgb.png);
+	transition-property: background-image;
+}
+.sponser3{
+	height: 150px;
+	width: 300px;
+	background-image: url(images/6-bw.png);
+}
+.sponser3:hover{
+	background-image: url(images/6-rgb.png);
+	transition-property: background-image;
+}
+.sponser4{
+	height: 150px;
+	width: 300px;
+	background-image: url(images/5-bw.png);
+}
+.sponser4:hover{
+	background-image: url(images/5-rgb.png);
+	transition-property: background-image;
+}
+.btn-grp {
+	text-align: center;
+	margin-bottom: 30px;
+}
+.bottom{
+	margin: 10px;
+	margin-top: 30px;
+	height: 32px;
+	width: 150px;
+	border-radius: 4px;
+	background-color: #ebebeb;
+	border-color: #bbb;
+	border: none;
+	font-weight: 500;
+	font-size: 16px;
+	color: #444;
+}
+a{
+	color: #666 ;
+}
+a:hover{
+	color: #666;
+	text-decoration: none;
+}
+button{
+	width: 120px;
+	margin: 20px;
+}
+.btn-grp {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
