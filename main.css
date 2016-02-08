@@ -274,7 +274,7 @@
  		margin-top:-40px;
  	}
  	#chat{
- 		max-height: 660px;
+ 		max-height: 640px;
  		overflow-y: auto;
  		overflow-x: hidden;
  		z-index:-1;
