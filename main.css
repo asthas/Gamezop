@@ -27,33 +27,7 @@ header.sticky{
 li{
 	display: inline-block;
 }
-.top{
-    margin: 10px;
-    margin-top: 30px;
-    height: 32px;
-    width: 150px;
-    border-radius: 4px;
-    background-color: #ebebeb;
-    border-color: #bbb;
-    border: none;
-    font-weight: 500;
-    font-size: 16px;
-    color: #444;
-}
-.top.sticky{
-    margin: 10px;
-    margin-top: 20px;
-    height: 32px;
-    width: 150px;
-    border-radius: 4px;
-    background-color: #ebebeb;
-    border-color: #bbb;
-    border: none;
-    font-weight: 500;
-    font-size: 16px;
-    color: #444;
-    background-color: #c2c2c2;
-}
+
 .left-nav{
 	float: left;
 	margin-left: 0px;
@@ -62,13 +36,17 @@ li{
 	font-style: normal;
 	font-size: 24px;
 	margin-left: 10px;
+	color: #3847A0;
 }
 .install{
-	background-color: #64DD17;
+	background-color: #4CAF50;
+	border-radius: 3px;
 	color: white;
 	font-weight: 500;
 	border: none;
 	font-size: 16px;
+	width: 100px;
+	height: 30px;
 }
 .col-sm-6{
 	text-align: center;
