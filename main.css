@@ -90,14 +90,15 @@ img.logo.sticky{
 	      rgba(0, 0, 0, 0.7), 
 	      rgba(0, 0, 0, 0.7)
     ),
-	url(images/carousel-placeholder.png);
-	background-attachment: fixed;
+	url(images/carousel-placeholder3.png);
+	overflow:hidden;
+	background-attachment:fixed;
 }
 .carousel-inner > .item > h3,
   .carousel-inner > .item > a > h3 {
 
   	  height: 280px; 
-      width: 100%;
+   	  width: 100%;
       margin: auto;
       background: transparent;
       display: table;
