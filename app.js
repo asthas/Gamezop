@@ -1,8 +1,8 @@
 $(window).scroll(function() {
 if ($(this).scrollTop() > 1){  
-    $('header').addClass("sticky");
+    $('ul').addClass("sticky");
   }
   else{
-    $('header').removeClass("sticky");
+    $('ul').removeClass("sticky");
   }
 });
