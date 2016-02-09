@@ -86,10 +86,6 @@ p{
     margin-right: 2%;
     margin-top: 20px;
 }
-@font-face {
-    font-family: 'Roboto';
-    src: url("fonts/Roboto-BoldItalic_2.ttf") /* TTF file for CSS3 browsers */
-}
 .row1{
     height:30%;
     width: 100%;
@@ -136,7 +132,7 @@ footer h4 {
     height: 150px;
     width: 100%;
     text-align: center;
-    margin-left: 15%;
+    margin-left: 20%;
     background-image: url(images/1-bw.png);
     background-repeat: no-repeat;
 }
@@ -148,7 +144,7 @@ footer h4 {
     height: 150px;
     width: 100%;
     text-align: center;
-    margin-left: 5%;
+    margin-left: 20%;
     background-image: url(images/2-bw.png);
    	background-repeat: no-repeat;
 }
@@ -160,7 +156,7 @@ footer h4 {
     height: 150px;
     width: 100%;
     text-align: center;
-    margin-left: 15%;
+    margin-left: 20%;
     background-image: url(images/6-bw.png);
     background-repeat: no-repeat;
 }
@@ -172,7 +168,7 @@ footer h4 {
     height: 150px;
      width: 100%;
     text-align: center;
-    margin-left: 15%;
+    margin-left: 20%;
     background-image: url(images/5-bw.png);
     background-repeat: no-repeat;
 }
