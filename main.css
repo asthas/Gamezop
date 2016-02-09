@@ -27,6 +27,10 @@ header.sticky{
 li{
     display: inline-block;
 }
+.container-fluid{
+	padding-right: 0px;
+	padding-left: 0px;
+}
  
 .left-nav{
     float: left;
@@ -37,6 +41,9 @@ li{
     font-size: 24px;
     margin-left: 10px;
     color: #3847A0;
+}
+.pull-right{
+	margin-right: 10%;
 }
 .install{
     background-color: #4CAF50;
@@ -95,8 +102,8 @@ p{
     text-align: center;
 }
 .text{
-    margin: 10px;
-    padding: 80px;
+    margin: 8%;
+    padding: 10%;
 }
 .text h3 {
     color: #3F51B5;
@@ -121,7 +128,7 @@ footer h4 {
     margin-bottom: 60px;
 }
 .sponsers{
-    width: 80%;
+    width: 100%;
     margin-bottom: 100px;
     margin: auto;
 }
@@ -129,7 +136,7 @@ footer h4 {
     height: 150px;
     width: 100%;
     text-align: center;
-     margin-left: 30%;
+    margin-left: 15%;
     background-image: url(images/1-bw.png);
     background-repeat: no-repeat;
 }
@@ -139,9 +146,9 @@ footer h4 {
 }
 .sponser2{
     height: 150px;
-     width: 100%;
+    width: 100%;
     text-align: center;
-     margin-left: 30%;
+    margin-left: 5%;
     background-image: url(images/2-bw.png);
    	background-repeat: no-repeat;
 }
@@ -153,7 +160,7 @@ footer h4 {
     height: 150px;
     width: 100%;
     text-align: center;
-     margin-left: 30%;
+    margin-left: 15%;
     background-image: url(images/6-bw.png);
     background-repeat: no-repeat;
 }
@@ -165,7 +172,7 @@ footer h4 {
     height: 150px;
      width: 100%;
     text-align: center;
-    margin-left: 30%;
+    margin-left: 15%;
     background-image: url(images/5-bw.png);
     background-repeat: no-repeat;
 }
@@ -208,16 +215,16 @@ button{
 @media only screen 
   and (max-width: 700px) {
 	.sponser1{
-		margin-left: 10px;
+		margin-left: 0%;
 	}
 	.sponser2{
-		margin-left: 10px;
+		margin-left: 0%;
 	}
 	.sponser3{
-		margin-left: 10px;
+		margin-left: 0%;
 	}
 	.sponser4{
-		margin-left: 10px;
+		margin-left: 0%;
 	}
 
 }
