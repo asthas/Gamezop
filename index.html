@@ -1,263 +1,403 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="description" content="Play hundreds of games online for free. Play games like 2048, Flappy Bird, Slime Soccer, Crossy Road and Zop without downloading any apps. We have lots of games under multiple categories - arcade, shooting, puzzles.">
-	<meta name="keywords" content="Casual games, free games, no downloading, hundred-in-one games, Zop, 2048, Slime Soccer, Arcade, Shooter, Puzzles">
-	<meta name="author" content="Astha Sharma">
-	<title>
-		Gamezop | Hundreds of free-to-play online games
-	</title>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-	<link rel="stylesheet" href="animate.css">
-    <script src="wow.min.js"></script>
-    <script>
-        new WOW().init();
-    </script>
-	<link href='https://fonts.googleapis.com/css?family=Roboto:400,500,400italic,500italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
-	<link rel="shortcut icon" type="image/png" href="images/favicon.png"/>
-	<link rel="stylesheet" href="main.css">
-</head>
-<body>
-	<header>
-		<ul>
-		   <li class="pull-right">
-		   <a href="https://docs.gamezop.io" target="_blank"><button class="top">Developers</button></a>
-		   <a href="https://bnc.lt/gzpweb" target="_blank"><button class="top"><img style="height: 20px; margin-bottom: 2px; margin-right:2px;"src="images/play-logo.png">Google Play</button></a>
-		   </li>
-		   <li><img class="logo"src="images/logo.png"></li>
-		</ul>		
-	</header>
-	<div class="screenshot">
-		<img src="images/mob.png">
-	</div>
-	<div class="row" id="chat">
-		<div class="col-sm-4">
-			<div class="chat-left">
-				<div class="bubbleb wow slideInLeft">
-					<h4 class="chat-style">Hello there! So you want to know what Gamezop’s about?</h4>
-				</div>
-				<div class="message-long wow slideInLeft" data-wow-delay="2s">
-					<div class="bubbleb short">
-						<h4 class="chat-style">Haha. Great.</h4>
-					</div>
-					<div class="plainb">
-						<h4 class="chat-style">Gamezop is a casual gaming app.<br> You can play games without downloading any other apps!</h4>
-					</div>
-                </div>
-                <div class="message-gap">
-                	
-                </div>
-            	<div class="message-long">
-            		<div class="bubbleb">
-            			<h4 class="chat-style">Just Android for now. Working on iOS too </h4>
-            		</div>
-            	</div>
-            	<div class="message-gap">
-            		
-            	</div>
-            	<div class="message-long">
-            		<div class="bubbleb shortl">
-            			<h4 class="chat-style">Glad you asked. No, they won’t.</h4>
-            		</div>
-            		<div class="plainb">
-            			<h4 class="chat-style">Once you play a game, you get the option to Star it</h4>
-            		</div>
-            		<div class="plainb">
-            			<h4 class="chat-style">And you can play Starred games offline too </h4>
-            		</div>
-            	</div>
-            	<div class="message-long">
-            		<div class="bubbleb">
-            			<h4 class="chat-style">Yeah! There’s also a friends’ section in the app. There, you can which of your friends are on Gamezop and what they’re playing.</h4>
-            		</div>
-            		<div class="plainb">
-            			<h4 class="chat-style">We’re really excited to be working on this bit…</h4>
-            		</div>
-            		<div class="plainb">
-            			<h4 class="chat-style">You’ll soon be able to challenge friends on their highscores too!</h4>
-            		</div>
-            	</div>
-            	<div class="message-short">
-            		
-            	</div>
-            	<div class="message-long">
-					<div class="bubbleb">
-						<h4 class="chat-style">Awesome! It’s here: <a style="color: #fff"href="https://bnc.lt/gamezop">https://bnc.lt/gamezop</a></h4>
-					</div>
-					<div class="plainb">
-						<h4 class="chat-style">Do leave us a good rating too :P Thanks!</h4>
-					</div>
-                </div>
-                <div class="message-short">
-					
-				</div>
-			</div>
+	<head>
+
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+		<meta name="description" content="Play hundreds of games online for free. Play games like 2048, Flappy Bird, Slime Soccer, Crossy Road and Zop without downloading any apps. We have lots of games under multiple categories - arcade, shooting, puzzles.">
+		<meta name="keywords" content="Casual games, free games, no downloading, hundred-in-one games, Zop, 2048, Slime Soccer, Arcade, Shooter, Puzzles">
+
+		<title>
+			Gamezop | Hundreds of free-to-play online games
+		</title>
+
+		<link rel="stylesheet" href="lib/bootstrap/dist/css/bootstrap.min.css">
+		<link href='https://fonts.googleapis.com/css?family=Roboto:400,500,400italic,500italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+
+		<link rel="shortcut icon" type="image/png" href="static/favicon.png"/>
+
+		<link rel="stylesheet" href="lib/animate.css/animate.min.css">
+		<link rel="stylesheet" href="css/style.css">
+
+	</head>
+
+	<body>
+
+		<header>
+
+			<ul>
+
+			   <li class="pull-right">
+
+				   <a href="https://docs.gamezop.io" target="_blank"><button class="top">Developers</button></a>
+
+				   <a href="https://bnc.lt/gzpweb" target="_blank">
+
+					   <button class="top">
+						   <img style="height: 20px; margin-bottom: 2px; margin-right:2px;"src="static/play-logo.png">
+						   Google Play
+					   </button>
+
+				   </a>
+
+			   </li>
+
+			   <li>
+				   <img class="logo"src="static/logo.png">
+			   </li>
+
+			</ul>
+
+		</header>
+
+		<div class="screenshot">
+
+			<img src="static/mob.png">
+
 		</div>
-		<div class= "col-sm-4">
-			<div class="whitespace">
+
+		<div class="row" id="chat">
+
+			<div class="col-sm-4">
+
+				<div class="chat-left">
+
+					<div class="bubbleb wow slideInLeft">
+						<h4 class="chat-style">Hello there! So you want to know what Gamezop’s about?</h4>
+					</div>
+
+					<div class="message-long wow slideInLeft" data-wow-delay="2s">
+
+						<div class="bubbleb short">
+							<h4 class="chat-style">Haha. Great.</h4>
+						</div>
+
+						<div class="plainb">
+							<h4 class="chat-style">Gamezop is a casual gaming app.<br> You can play games without downloading any other apps!</h4>
+						</div>
+
+					</div>
+
+					<div class="message-gap"></div>
+
+	            	<div class="message-long">
+
+						<div class="bubbleb">
+	            			<h4 class="chat-style">Just Android for now. Working on iOS too </h4>
+	            		</div>
+
+					</div>
+
+					<div class="message-gap"></div>
+
+	            	<div class="message-long">
+
+						<div class="bubbleb shortl">
+	            			<h4 class="chat-style">Glad you asked. No, they won’t.</h4>
+	            		</div>
+
+						<div class="plainb">
+	            			<h4 class="chat-style">Once you play a game, you get the option to Star it</h4>
+	            		</div>
+
+						<div class="plainb">
+	            			<h4 class="chat-style">And you can play Starred games offline too </h4>
+	            		</div>
+
+					</div>
+
+					<div class="message-long">
+
+						<div class="bubbleb">
+	            			<h4 class="chat-style">Yeah! There’s also a friends’ section in the app. There, you can which of your friends are on Gamezop and what they’re playing.</h4>
+	            		</div>
+
+						<div class="plainb">
+	            			<h4 class="chat-style">We’re really excited to be working on this bit…</h4>
+	            		</div>
+
+						<div class="plainb">
+	            			<h4 class="chat-style">You’ll soon be able to challenge friends on their highscores too!</h4>
+	            		</div>
+
+					</div>
+
+					<div class="message-short"></div>
+
+	            	<div class="message-long">
+
+						<div class="bubbleb">
+							<h4 class="chat-style">Awesome! It’s here: <a style="color: #fff"href="https://bnc.lt/gamezop">https://bnc.lt/gamezop</a></h4>
+						</div>
+
+						<div class="plainb">
+							<h4 class="chat-style">Do leave us a good rating too :P Thanks!</h4>
+						</div>
+
+				    </div>
+
+				    <div class="message-short"></div>
+
+				</div>
+
 			</div>
+
+			<div class= "col-sm-4">
+				<div class="whitespace"></div>
+			</div>
+
+			<div class="col-sm-4">
+
+				<div class="chat-right">
+
+					<div class="message-short wow slideInRight" data-wow-delay="1s">
+
+						<div class="bubbleg short1">
+							<h4 class="chat-style">Umm... sure. Tell me about it.</h4>
+						</div>
+
+					</div>
+
+					<div class="message-short"></div>
+
+					<div class="message-short wow slideInRight" data-wow-delay="3s">
+
+						<div class="bubbleg short1">
+							<h4 class="chat-style">Ah, I see. That’s interesting.</h4>
+						</div>
+
+						<div class="plaing short2">
+							<h4 class="chat-style">Android and iOS? </h4>
+						</div>
+
+					</div>
+
+					<div class="message-short" >
+
+						<div class="bubbleg short4">
+							<h4 class="chat-style">Cool!</h4>
+						</div>
+
+						<div class="plaing longl">
+							<h4 class="chat-style">So these games I can play without downloading, they must be online games then. Wouldn’t that take up too much of my data? </h4>
+						</div>
+
+					</div>
+
+					<div class="message-gap"></div>
+					<div class="message-gap"></div>
+
+					<div class="message-short">
+
+						<div class="bubbleg short2">
+							<h4 class="chat-style">Oh! That’s nice!</h4>
+						</div>
+
+					</div>
+
+					<div class="message-short"></div>
+					<div class="message-gap"></div>
+
+					<div class="message-short">
+
+						<div class="bubbleg short3">
+							<h4 class="chat-style">Oh that would be fun.</h4>
+						</div>
+
+						<div class="plaing short3">
+							<h4 class="chat-style">I think I’ll try the app!</h4>
+						</div>
+
+						<div class="plaing short3">
+							<h4 class="chat-style">Where can I get it???</h4>
+						</div>
+
+					</div>
+
+				</div>
+
+			</div>
+
 		</div>
-		<div class="col-sm-4">
-		<div class="chat-right">
-			<div class="message-short wow slideInRight" data-wow-delay="1s">
-				<div class="bubbleg short1">
-					<h4 class="chat-style">Umm... sure. Tell me about it.</h4>
+
+		<div class="row">
+
+			<div class="col-xs-12">
+
+				<div id="myCarousel" class="carousel slide" data-ride="carousel">
+
+					<div class="carousel-inner" role="listbox">
+
+						<div class="item active">
+							<h3 style="padding: 80px;"><strong>Great gaming app:</strong><div class="comment"> Love the app, simplicity at its best! Easy to use,<br>addictive games - great to share with friends on the move!</div><br>~Amanda Moralee</h3>
+						</div>
+
+						<div class="item">
+							<h3 style="padding: 60px;"><strong>Great app for short gaming: </strong><div class="comment">This app is really fun, it has lots of games<br>that you can play online or save for offline. I like that I can share<br>the games with my friends who don't have the app.</div><br>~Brianna Lumb</h3>
+						</div>
+
+						<div class="item">
+							<h3 style="padding: 100px;"><strong >Convenience:</strong><div class="comment"> The app is very convenient for the gamer on the go.</div><br>~Loren Abigail Sion</h3>
+						</div>
+
+						<div class="item">
+							<h3 style="padding: 80px;"><strong>Awesome idea for an app: </strong><div class="comment">Uses less storage for gaming, no need<br>to have thousands of games, it's all in one, love it!!!</div><br>~Mai</h3>
+						</div>
+
+						<div class="item">
+							<h3 style="padding: 60px;"><strong>New and Unique:</strong><div class="comment">A great idea! A must have for the commute on the<br>tube in the morning! Easy to use, and addictive games!<br>Says exactly what it does on the tin! Love it!</div> <br>~Mehak Vasishta</h3>
+						</div>
+
+						<a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+							<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+							<span class="sr-only">Previous</span>
+						</a>
+
+						<a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+							<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+							<span class="sr-only">Next</span>
+						</a>
+
+					</div>
+
 				</div>
+
 			</div>
-			<div class="message-short">
-				
-			</div>
-			<div class="message-short wow slideInRight" data-wow-delay="3s">
-				<div class="bubbleg short1">
-					<h4 class="chat-style">Ah, I see. That’s interesting.</h4>
-				</div>
-				<div class="plaing short2">
-					<h4 class="chat-style">Android and iOS? </h4>
-				</div>
-			</div>
-			<div class="message-short" >
-				<div class="bubbleg short4">
-					<h4 class="chat-style">Cool!</h4>
-				</div>
-				<div class="plaing longl">
-					<h4 class="chat-style">So these games I can play without downloading, they must be online games then. Wouldn’t that take up too much of my data? </h4>
-				</div>
-			</div>
-			<div class="message-gap">
-				
-			</div>
-			<div class="message-gap"></div>
-			<div class="message-short">
-				<div class="bubbleg short2">
-					<h4 class="chat-style">Oh! That’s nice!</h4>
-				</div>
-			</div>
-			<div class="message-short">
-				
-			</div>
-			<div class="message-gap"></div>
-			<div class="message-short">
-				<div class="bubbleg short3">
-					<h4 class="chat-style">Oh that would be fun.</h4>
-				</div>
-				<div class="plaing short3">
-					<h4 class="chat-style">I think I’ll try the app!</h4>
-				</div>
-				<div class="plaing short3">
-					<h4 class="chat-style">Where can I get it???</h4>
-				</div>
-			</div>
+
 		</div>
+
+		<div class="cartoon">
+
+			<div class="row row1">
+
+				<div class="col-md-6">
+					<img style="height: 400px; width: 400px; margin: 60px; text-align:center;"src="static/onboarding_1.jpg">
+				</div>
+
+				<div class="col-md-6">
+
+					<div class="text text1">
+						<h3>Play what you love</h3>
+						<h4>Get curated recommendations <br>handpicked for you.</h4>
+					</div>
+
+				</div>
+
+			</div>
+
+			<div class="row row1">
+
+				<div class="col-md-6">
+
+					<div class="text text2">
+						<h3>Play on the go</h3>
+						<h4>Star your favorite games and <br>play them without internet!</h4>
+					</div>
+
+				</div>
+
+				<div class="col-md-6">
+					<img class="imgr"style="height: 400px; width: 400px; margin:60px 200px 60px 0px; text-align: center;"src="static/onboarding_2.jpg">
+				</div>
+
+			</div>
+
+			<div class="row row1">
+
+				<div class="col-md-6">
+					<img style="height: 400px; width: 400px; margin: 60px;"src="static/onboarding_3.jpg">
+				</div>
+
+				<div class="col-md-6">
+
+					<div class="text text3">
+						<h3>Play what you love</h3>
+						<h4>See what friends are playing, challenge<br> them on high scores!</h4>
+					</div>
+
+				</div>
+
+			</div>
+
+			<div class="row row1">
+
+				<div class="col-md-6">
+
+					<div class="text text4">
+						<h3>One app, many games</h3>
+						<h4>Play new games without downloading<br> any additional app</h4>
+					</div>
+
+				</div>
+
+				<div class="col-md-6">
+					<img class="imgr" style="height: 400px; width: 400px; margin: 60px 200px 60px 0px;"src="static/onboarding_4.jpg">
+				</div>
+
+			</div>
+
 		</div>
-	</div>
-	<div class="row">
-		<div class="col-xs-12">
-			<div id="myCarousel" class="carousel slide" data-ride="carousel">
-			  <!-- Wrapper for slides -->
-			  <div class="carousel-inner" role="listbox">
-			    <div class="item active">
-			      <h3 style="padding: 80px;"><strong>Great gaming app:</strong><div class="comment"> Love the app, simplicity at its best! Easy to use,<br>addictive games - great to share with friends on the move!</div><br>~Amanda Moralee</h3>
-			    </div>
-				<div class="item">
-			      <h3 style="padding: 60px;"><strong>Great app for short gaming: </strong><div class="comment">This app is really fun, it has lots of games<br>that you can play online or save for offline. I like that I can share<br>the games with my friends who don't have the app.</div><br>~Brianna Lumb</h3>
-			    </div>
-			    <div class="item">
-			      <h3 style="padding: 100px;"><strong >Convenience:</strong><div class="comment"> The app is very convenient for the gamer on the go.</div><br>~Loren Abigail Sion</h3>
-			    </div>
-				<div class="item">
-				    <h3 style="padding: 80px;"><strong>Awesome idea for an app: </strong><div class="comment">Uses less storage for gaming, no need<br>to have thousands of games, it's all in one, love it!!!</div><br>~Mai</h3>
+
+		<hr>
+
+		<footer>
+
+			<div class="footer-title">
+				<center><h4>Get to know more...</h4></center>
+			</div>
+
+			<div class="row sponsers">
+
+				<div class="col-sm-3">
+					<a href="https://goo.gl/P6IUE6" target="_blank"><div class="sponser1"></div></a>
 				</div>
-				<div class="item">
-				    <h3 style="padding: 60px;"><strong>New and Unique:</strong><div class="comment">A great idea! A must have for the commute on the<br>tube in the morning! Easy to use, and addictive games!<br>Says exactly what it does on the tin! Love it!</div> <br>~Mehak Vasishta</h3>
+
+				<div class="col-sm-3">
+					<a href="http://goo.gl/IAT0Wm" target="_blank"><div class="sponser2"></div></a>
 				</div>
-				<!-- Left and right controls -->
-				<a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
-					<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-					<span class="sr-only">Previous</span>
+
+				<div class="col-sm-3">
+					<a href="https://goo.gl/1G9M9R" target="_blank"><div class="sponser3"></div></a>
+				</div>
+
+				<div class="col-sm-3">
+					<a href="http://goo.gl/0TAs5M" target="_blank"><div class="sponser4"></div></a>
+				</div>
+
+			</div>
+
+			<div class="btn-grp">
+
+				<a href="https://goo.gl/1t5DHU" target="_blank" class="button">
+					<button class="bottom">Facebook</button>
 				</a>
-				<a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
-					<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-					<span class="sr-only">Next</span>
+
+				<a href="mailto:y+website@gamezop.co" target="_blank" class="button">
+					<button class="bottom">Contact us</button>
 				</a>
+
+				<a href=" https://goo.gl/3euPOS" target="_blank" class="button">
+					<button class="bottom">Twitter</button>
+				</a>
+
 			</div>
-		</div>
-	</div>
-	</div>
-	<div class="cartoon">
-		<div class="row row1">
-			<div class="col-md-6">
-				<img style="height: 400px; width: 400px; margin: 60px; text-align:center;"src="images/onboarding_1.jpg">
-			</div>
-			<div class="col-md-6">
-				<div class="text text1">
-					<h3>Play what you love</h3>
-					<h4>Get curated recommendations <br>handpicked for you.</h4>
-				</div>
-			</div>
-		</div>
-		<div class="row row1">
-			<div class="col-md-6">
-				<div class="text text2">
-					<h3>Play on the go</h3>
-					<h4>Star your favorite games and <br>play them without internet!</h4>
-				</div>
-			</div>
-			<div class="col-md-6">
-				<img class="imgr"style="height: 400px; width: 400px; margin:60px 200px 60px 0px; text-align: center;"src="images/onboarding_2.jpg">
-			</div>
-		</div>
-		<div class="row row1">
-			<div class="col-md-6">
-				<img style="height: 400px; width: 400px; margin: 60px;"src="images/onboarding_3.jpg">
-			</div>
-			<div class="col-md-6">
-				<div class="text text3">
-					<h3>Play what you love</h3>
-					<h4>See what friends are playing, challenge<br> them on high scores!</h4>
-				</div>
-			</div>
-		</div>
-		<div class="row row1">
-			<div class="col-md-6">
-				<div class="text text4">
-					<h3>One app, many games</h3>
-					<h4>Play new games without downloading<br> any additional app</h4>
-				</div>
-			</div>
-			<div class="col-md-6">
-				<img class="imgr" style="height: 400px; width: 400px; margin: 60px 200px 60px 0px;"src="images/onboarding_4.jpg">
-			</div>
-		</div>
-	</div>
-	<hr>
-	<footer>
-		<div class="footer-title">
-			<center><h4>Get to know more...</h4></center>
-		</div>
-		<div class="row sponsers">
-			<div class="col-sm-3">
-				<a href="https://goo.gl/P6IUE6" target="_blank"><div class="sponser1"></div></a>
-			</div>
-			<div class="col-sm-3">
-				<a href="http://goo.gl/IAT0Wm" target="_blank"><div class="sponser2"></div></a>
-			</div>
-			<div class="col-sm-3">
-				<a href="https://goo.gl/1G9M9R" target="_blank"><div class="sponser3"></div></a>
-			</div>
-			<div class="col-sm-3">
-				<a href="http://goo.gl/0TAs5M" target="_blank"><div class="sponser4"></div></a>
-			</div>
-		</div>
-		<div class="btn-grp">
-			<a href="https://goo.gl/1t5DHU" target="_blank" class="button"><button class="bottom">Facebook</button></a>
-			<a href="mailto:y+website@gamezop.co" target="_blank" class="button"><button class="bottom">Contact us</button></a>
-			<a href=" https://goo.gl/3euPOS" target="_blank" class="button"><button class="bottom">Twitter</button></a>
-		</div>
-	</footer>
-	<script src="app.js"></script>
-</body>
+
+		</footer>
+
+		<!-- JavaScript -->
+
+		<script src="lib/wow/dist/wow.min.js"></script>
+
+		<script>
+	        new WOW().init();
+	    </script>
+
+		<script src="lib/jquery/dist/jquery.min.js"></script>
+		<script src="lib/bootstrap/dist/js/bootstrap.min.js"></script>
+
+		<script src="js/main.js"></script>
+
+	</body>
+
 </html>
