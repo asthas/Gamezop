@@ -1,5 +1,5 @@
 @media screen 
-  and (min-device-width: 900px) 
+  and (min-device-width: 1024px) 
   and (max-device-width: 2048px) 
  { 
  	body{
@@ -33,6 +33,7 @@
  		background-color: #eee;
  		box-shadow: 2px 2px 2px #b2b2b2;
  		height: 75px;
+ 		transition: all 0.4s ease;
  	}
 
  	ul.nav li{
@@ -82,6 +83,7 @@
  		font-size: 16px;
  		color: #444;
  		background-color: #c2c2c2;
+ 		transition: all 0.1s ease;
  	}
  	.pull-right{
  		margin-right: 30px;
