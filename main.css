@@ -49,8 +49,7 @@
  		height: 80px; 
  		width:80px;
  	}
-
- 	img.logo.sticky{
+	img.logo.sticky{
  		margin-top: 12px;
  		margin-left: 23%;
  		width: 50px;
@@ -276,6 +275,7 @@
  		margin-top:-40px;
  	}
  	#chat{
+ 		margin-top: -60px;
  		max-height: 640px;
  		overflow-y: auto;
  		overflow-x: hidden;
@@ -337,7 +337,7 @@
  	.chat-right{
  		text-align: left;
  		margin-left: 10%;
- 		margin-right: -20px;
+ 		margin-right: -10px;
  	}
  	.bubbleg{
  	  position:relative;
