@@ -457,6 +457,82 @@
     margin-left: 16px;
     margin-top: -9px;
   }
+  .typing3{
+    background-image: url('/images/chat-bubble.png');
+    width: 70px;
+    margin: 0 auto;
+    width: 70px;
+    height: 50px;
+  }
+
+  .typing3:after{
+    font-size: 36px;
+    overflow: hidden;
+    display: inline-block;
+    -webkit-animation: ellipsis steps(4,end) 900ms infinite;
+    animation: ellipsis steps(4,end) 900ms infinite;
+    content: "\2026"; /* ascii code for the ellipsis character */
+    width: 0;
+    margin-left: 16px;
+    margin-top: -9px;
+  }
+  .typing4{
+    background-image: url('/images/chat-bubble.png');
+    width: 70px;
+    margin: 0 auto;
+    width: 70px;
+    height: 50px;
+  }
+
+  .typing4:after{
+    font-size: 36px;
+    overflow: hidden;
+    display: inline-block;
+    -webkit-animation: ellipsis steps(4,end) 900ms infinite;
+    animation: ellipsis steps(4,end) 900ms infinite;
+    content: "\2026"; /* ascii code for the ellipsis character */
+    width: 0;
+    margin-left: 16px;
+    margin-top: -9px;
+  }
+  .typing5{
+    background-image: url('/images/chat-bubble.png');
+    width: 70px;
+    margin: 0 auto;
+    width: 70px;
+    height: 50px;
+  }
+
+  .typing5:after{
+    font-size: 36px;
+    overflow: hidden;
+    display: inline-block;
+    -webkit-animation: ellipsis steps(4,end) 900ms infinite;
+    animation: ellipsis steps(4,end) 900ms infinite;
+    content: "\2026"; /* ascii code for the ellipsis character */
+    width: 0;
+    margin-left: 16px;
+    margin-top: -9px;
+  }
+  .typing6{
+    background-image: url('/images/chat-bubble.png');
+    width: 70px;
+    margin: 0 auto;
+    width: 70px;
+    height: 50px;
+  }
+
+  .typing6:after{
+    font-size: 36px;
+    overflow: hidden;
+    display: inline-block;
+    -webkit-animation: ellipsis steps(4,end) 900ms infinite;
+    animation: ellipsis steps(4,end) 900ms infinite;
+    content: "\2026"; /* ascii code for the ellipsis character */
+    width: 0;
+    margin-left: 16px;
+    margin-top: -9px;
+  }
 
     @keyframes ellipsis {
       to {
