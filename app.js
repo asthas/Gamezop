@@ -18,19 +18,23 @@ $(document).ready(function(){
   initWow();
   setUpScroll();
 
-  $('.typing').each(function(i){
-    var counter = 200 + i * 1000;
-
+  $('.typing1').each(function(i){
+    console.log(i);
     var selector = $(this);
-    var time = parseInt(selector.siblings().attr('data-wow-delay'));
-    var toSeconds = (time * 1000) - 100;
-
-    var showTyping = setInterval(function() {
-      selector.fadeIn();
-    }, counter);
-
+    var time = parseFloat(selector.siblings().attr('data-wow-delay'));
+    var toSeconds = (time * 1000) - 300;
     var hideTyping = setInterval(function() {
-      clearInterval(showTyping);
+      selector.fadeOut();
+    }, toSeconds);
+
+    console.log(toSeconds);
+  });
+  $('.typing2').each(function(i){
+    console.log(i);
+    var selector = $(this);
+    var time = parseFloat(selector.siblings().attr('data-wow-delay'));
+    var toSeconds = (time * 1000) - 300;
+    var hideTyping = setInterval(function() {
       selector.fadeOut();
     }, toSeconds);
 

@@ -419,7 +419,7 @@
  		padding-left: 18px;
  	}
 
-  .typing{
+  .typing1{
     background-image: url('/images/chat-bubble.png');
     width: 70px;
     margin: 0 auto;
@@ -427,7 +427,26 @@
     height: 50px;
   }
 
-  .typing:after{
+  .typing1:after{
+    font-size: 36px;
+    overflow: hidden;
+    display: inline-block;
+    -webkit-animation: ellipsis steps(4,end) 900ms infinite;
+    animation: ellipsis steps(4,end) 900ms infinite;
+    content: "\2026"; /* ascii code for the ellipsis character */
+    width: 0;
+    margin-left: 16px;
+    margin-top: -9px;
+  }
+  .typing2{
+    background-image: url('/images/chat-bubble.png');
+    width: 70px;
+    margin: 0 auto;
+    width: 70px;
+    height: 50px;
+  }
+
+  .typing2:after{
     font-size: 36px;
     overflow: hidden;
     display: inline-block;
