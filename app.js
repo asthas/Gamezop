@@ -13,13 +13,17 @@ function setUpScroll() {
   });
 }
 
+function autoScroll() {
+  $('#chat').animate({scrollTop: 1800}, 45500);
+}
+
 $(document).ready(function(){
 
   initWow();
   setUpScroll();
-  setTimeout(function(){
-    $("#chat").animate({ scrollTop: 700 }, 50000);
-  }, 3000)
+
+  //Comment out next line to disable auto scroll
+  /*setTimeout(autoScroll, 2000)
 
   $('.typing1').each(function(i){
     console.log(i);
@@ -42,49 +46,18 @@ $(document).ready(function(){
     }, toSeconds);
 
     console.log(toSeconds);
-  });
-  $('.typing3').each(function(i){
-    console.log(i);
-    var selector = $(this);
-    var time = parseFloat(selector.siblings().attr('data-wow-delay'));
-    var toSeconds = (time * 1000) - 300;
-    var hideTyping = setInterval(function() {
-      selector.fadeOut();
-    }, toSeconds);
+  });*/
+  var msg = "ooolalala";
 
-    console.log(toSeconds);
-  });
-  $('.typing4').each(function(i){
-    console.log(i);
-    var selector = $(this);
-    var time = parseFloat(selector.siblings().attr('data-wow-delay'));
-    var toSeconds = (time * 1000) - 300;
-    var hideTyping = setInterval(function() {
-      selector.fadeOut();
-    }, toSeconds);
+  var pbox = $('.chat-left');
 
-    console.log(toSeconds);
-  });
-  $('.typing5').each(function(i){
-    console.log(i);
-    var selector = $(this);
-    var time = parseFloat(selector.siblings().attr('data-wow-delay'));
-    var toSeconds = (time * 1000) - 300;
-    var hideTyping = setInterval(function() {
-      selector.fadeOut();
-    }, toSeconds);
+  $('.chat-left').text(" Old chat messages");
 
-    console.log(toSeconds);
-  });
-  $('.typing6').each(function(i){
-    console.log(i);
-    var selector = $(this);
-    var time = parseFloat(selector.siblings().attr('data-wow-delay'));
-    var toSeconds = (time * 1000) - 300;
-    var hideTyping = setInterval(function() {
-      selector.fadeOut();
-    }, toSeconds);
+  var chat_div = $('<div></div>').attr('class', 'chat_msg').text(msg);
 
-    console.log(toSeconds);
-  });
+  chat_div.appendTo(pbox);
+
+  var height = pbox.scrollTop() + pbox.height() + $('#postbox').filter('.chat_msg:last').scrollTop();
+
+  pbox.animate({'scrollTop' : height}, 1000);
 })
